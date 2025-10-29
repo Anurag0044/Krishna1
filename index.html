@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://m.media-amazon.com/images/I/81Ox6STRkhL._AC_UF894,1000_QL80_.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://m.media-amazon.com/images/I/818jarw7O0L._AC_UF894,1000_QL80_.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87ObMwIlrpsV1FX9sEqQDWg7v63fGzW8ljg&s" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHigI58A7KkksojQRLef5HwiagaKX4qlFSCQ&s" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://qph.cf2.quoracdn.net/main-qimg-22ce4c27c4cc038e2d84ac5a6debbcfa-pjlq" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://i.pinimg.com/736x/a8/95/76/a895762ece3d020e517794e2655c94d0.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROJ6H5Yd_OQOLJ_FIVLySHtyru2dvT66Jd7MU8tI_PCyMCJv2S6B4IDXG1zXngs-svdng&usqp=CAU" alt=""></div>
+            <div class="item" style="--position: 8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2EMkvoXMMywYq_Opq9RnGHdDC75nHlAUe_g&s" alt=""></div>
+            <div class="item" style="--position: 9"><img src="https://i.pinimg.com/236x/b2/bd/96/b2bd96e79d3465a89abce9ce11aad8d0.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="https://i.pinimg.com/736x/12/86/30/1286302f06ce70e74bfbc704be38f6a7.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content=" &ensp;&ensp;krishna&ensp; " >
+            &ensp;&ensp;krishna&ensp;
+               
+            </h1>
+            <div class="author">
+                <h2></h2>
+                <p><b></b></p>
+                <p>
+                   
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+</body>
+</html>
